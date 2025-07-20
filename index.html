@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="sky">
+            <div id="plane" class="plane">
+            </div>
+            </div>
+        <div class="ground"></div>
+        <div class="scoreboard">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="game-over-message" class="game-over-message hidden">
+            Game Over! Final Score: <span id="final-score">0</span>
+            <button id="restart-button">Restart Game</button>
+        </div>
+        <div class="instructions">
+            Use Left and Right arrow keys to move the plane. Avoid the birds!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
